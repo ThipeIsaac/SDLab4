@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function fetchNeighboringCountries(borders) {
         const neighborList = document.getElementById('neighborList');
-        neighborList.innerHTML = ''; // Clear previous list
+        neighborList.innerHTML = ''; 
     
         borders.forEach((border) => {
             const url = `https://restcountries.com/v3.1/alpha/${border}`;
